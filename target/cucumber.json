@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2131615700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionfinal.beforeRun()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "1 user should be able to change background color to sky blue",
+        "description": "",
+        "id": "setting-the-background-color;1-user-should-be-able-to-change-background-color-to-sky-blue",
+        "after": [
+          {
+            "result": {
+              "duration": 13300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionfinal.exit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 135053700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "validate SkyBlue Background button is displayed",
+            "match": {
+              "location": "StepDefinitionfinal.validate_SkyBlue_Background_button_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48376900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the skyBlue background button",
+            "match": {
+              "location": "StepDefinitionfinal.i_click_on_the_skyBlue_background_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28131300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "StepDefinitionfinal.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "setting the background color",
+    "description": "",
+    "id": "setting-the-background-color",
+    "keyword": "Feature",
+    "uri": "features/FeatureFileScenario1.feature"
+  }
+]
